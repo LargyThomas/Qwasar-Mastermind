@@ -3,28 +3,29 @@
 
 ## Task
 What is the problem? And where is the challenge?
-L’objectif de ce projet est de coder une version du jeu Mastermind.
+The goal of this project is to code a version of the Mastermind game.
+
 ## Description
 How have you solved the problem?
-Le programme génère ou reçoit en argument un code secret de 4 chiffres différents entre 0 et 8.
+The program generates or receives as an argument a secret code of 4 different digits between 0 and 8.
+
 ## Installation
 How to install your project? npm install? make? make re?
-J'ai utilisé le terminal pour créer mes fichiers et moon Makefile pour compiler.
+I used the terminal to create my files and my Makefile to compile.
+
 ## Usage
-How does it work?
-J'ai créer plusieurs fonctions qqui vont me permettre de réaliser différentes tâchhes (generation8_code(), str_len(), validation_format(), compare_code(), lecture_code(), gestion_arguments())
+I created several functions to handle different tasks (generate_code(), str_len(), validation_format(), compare_code(), read_code(), handle_arguments())
 
-Dans la fonction main je fais en sorte que :
-Le joueur doit essayer de deviner le code en un nombre limité de tentatives (10 par défaut ou modifiable avec `-t`).  
-Après chaque essai, le programme affiche :
-- Le nombre de chiffres bien placés(bonne valeur + bonne position)
-- Le nombre de chiffres mal placés(bonne valeur mais position différente)
+In the main function:
+The player must try to guess the code within a limited number of attempts (10 by default, adjustable with -t).
+After each guess, the program displays:
 
-Si le joueur trouve le code exact, le programme affiche un message de victoire.
+The number of well-placed digits (correct value + correct position)
+The number of misplaced digits (correct value but wrong position)
+If the player finds the exact code, the program displays a victory message.
 
 
 ### The Core Team
 
 
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
-<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
